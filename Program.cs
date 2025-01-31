@@ -25,14 +25,14 @@ namespace SymbolGen
 
                 FssDrawStyle style = new FssDrawStyle
                 {
-                    FillColor   = SKColors.Red,
+                    FillColor   = SKColors.Green,
                     StrokeColor = SKColors.White,
                     StrokeWidth = 20
                 };
                 // FssDrawActions.DrawRotatedOctagon(canvas, insetRect,  style);
                 //FssDrawActions.DrawRotatedOctagon(canvas, insetRect2, style);
 
-                FssDrawActions.DrawFourLeafCloverMissingBottom(canvas, insetRect, insetRect2, style);
+                FssDrawActions.DrawPlatformUnknownLeftBar(canvas, insetRect, insetRect2, style);
             }
 
             // Create an image from the bitmap.
