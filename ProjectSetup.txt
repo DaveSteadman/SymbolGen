@@ -1,0 +1,9 @@
+mkdir SymbolGen
+cd SymbolGen
+dotnet new console
+
+# 2. Add the SkiaSharp package via NuGet
+dotnet add package SkiaSharp
+
+# 3. Build and run the application to verify setup
+dotnet run
